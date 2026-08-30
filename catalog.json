@@ -1,0 +1,282 @@
+{
+  "schema_version": 1,
+  "content_version": "1.0.0",
+  "updated_at": "2026-08-29T00:00:00Z",
+  "total_quotations": 178,
+  "total_categories": 39,
+  "categories": [
+    {
+      "id": "action",
+      "name": "Action",
+      "count": 1,
+      "file": "data/categories/action.json",
+      "sha256": "473f1a923c6004b0bce05b9e1dfe81ff2ad3a8e15ddab30eee5c6f4d75d09853"
+    },
+    {
+      "id": "anger-management",
+      "name": "Anger Management",
+      "count": 36,
+      "file": "data/categories/anger-management.json",
+      "sha256": "815bae5f5253d6836afe449f836f3989c084d29d1dd8aa4611b384aba1179377"
+    },
+    {
+      "id": "clarity",
+      "name": "Clarity",
+      "count": 1,
+      "file": "data/categories/clarity.json",
+      "sha256": "2851908fb0f11b0df370f1223c38aaeeb02aeedce88a665a4d51a082abd94798"
+    },
+    {
+      "id": "communication",
+      "name": "Communication",
+      "count": 1,
+      "file": "data/categories/communication.json",
+      "sha256": "9c9d1b837711ec5c76f41851403f6c00a7dacbb250d9f1055485e1f4b70acf5b"
+    },
+    {
+      "id": "control",
+      "name": "Control",
+      "count": 1,
+      "file": "data/categories/control.json",
+      "sha256": "bfb3f3b2fc7571905e062d693df5e62eb8248824a4fecd31d686049b35f75198"
+    },
+    {
+      "id": "destruction",
+      "name": "Destruction",
+      "count": 1,
+      "file": "data/categories/destruction.json",
+      "sha256": "854b672baf33eb8235fcfc6e793e42d6c7c3b4aeab7d971b929864cdbf4a5627"
+    },
+    {
+      "id": "dignity",
+      "name": "Dignity",
+      "count": 1,
+      "file": "data/categories/dignity.json",
+      "sha256": "c7ce99e5cc0df1700de066a37077bea82fa190d85aec0aa9492e677e683dc77c"
+    },
+    {
+      "id": "discipline",
+      "name": "Discipline",
+      "count": 1,
+      "file": "data/categories/discipline.json",
+      "sha256": "d995a895c5fd91d216bd61f28c9fd9823d30ff1c9c9745a661b83a327876a800"
+    },
+    {
+      "id": "emotional-mastery",
+      "name": "Emotional mastery",
+      "count": 1,
+      "file": "data/categories/emotional-mastery.json",
+      "sha256": "93e880b781750c75c2e9488db3de5a0f282d0ad2f76278ad8e839b464ae2e06d"
+    },
+    {
+      "id": "forgiveness",
+      "name": "Forgiveness",
+      "count": 1,
+      "file": "data/categories/forgiveness.json",
+      "sha256": "d626846524f73c678c1623357184b1b0dce2854fdbd25af0ee139d4a65e7eb9f"
+    },
+    {
+      "id": "freedom",
+      "name": "Freedom",
+      "count": 1,
+      "file": "data/categories/freedom.json",
+      "sha256": "f4d120ae913d92ce1bbc18592c2cbaec3beda7c65ad2516ffca337cf4e839851"
+    },
+    {
+      "id": "growth",
+      "name": "Growth",
+      "count": 1,
+      "file": "data/categories/growth.json",
+      "sha256": "b2faf24c9abd56010dc9e559835d7302ad745615b4ee996658dcd2be9530556e"
+    },
+    {
+      "id": "humility",
+      "name": "Humility",
+      "count": 1,
+      "file": "data/categories/humility.json",
+      "sha256": "2174eb9f302b1d4eb4fc792794190632fff3617c1b92d996d39d049314f6ed7d"
+    },
+    {
+      "id": "humor",
+      "name": "Humor",
+      "count": 1,
+      "file": "data/categories/humor.json",
+      "sha256": "801d0b3a1b8bf244dd65f39598b76ee105097c3054884710719aa214163d611c"
+    },
+    {
+      "id": "impact",
+      "name": "Impact",
+      "count": 1,
+      "file": "data/categories/impact.json",
+      "sha256": "6ffc8adf6bdb3ec2dcbeae86a2b95585a79e804e67b151335b6a5d0af8cee9aa"
+    },
+    {
+      "id": "inner-peace",
+      "name": "Inner peace",
+      "count": 1,
+      "file": "data/categories/inner-peace.json",
+      "sha256": "9731dade3a9a76102c59401ebf2c9e7433057598786dee22286f1af9beb669ad"
+    },
+    {
+      "id": "letting-go",
+      "name": "Letting go",
+      "count": 1,
+      "file": "data/categories/letting-go.json",
+      "sha256": "20ffa0fa79d47d759bb2b68c68a4c6633422788699213bcf16c599999e86d97e"
+    },
+    {
+      "id": "mindfulness",
+      "name": "Mindfulness",
+      "count": 1,
+      "file": "data/categories/mindfulness.json",
+      "sha256": "9b26b3fe60982116ddc9f2f94cf9c5f8b156c52b3f4392fb288bc6890892e1ab"
+    },
+    {
+      "id": "patience",
+      "name": "Patience",
+      "count": 1,
+      "file": "data/categories/patience.json",
+      "sha256": "e5b0341fba94464486f85798f432505d1d4f7fb48b855c549bc89331955b956d"
+    },
+    {
+      "id": "personal-growth",
+      "name": "Personal Growth",
+      "count": 34,
+      "file": "data/categories/personal-growth.json",
+      "sha256": "cba0d2fa0dfec8d3530682d3178f22fc96fe816693a7abe270696e7ca1b52aab"
+    },
+    {
+      "id": "power",
+      "name": "Power",
+      "count": 3,
+      "file": "data/categories/power.json",
+      "sha256": "2edc35e08ce0219e4f1a1e4a0363d088d1d3fa0649e6135480f5baa513471901"
+    },
+    {
+      "id": "regret",
+      "name": "Regret",
+      "count": 2,
+      "file": "data/categories/regret.json",
+      "sha256": "92647d3b9f393d3439ff0d54cd6011622df3e4b720d6cebc415dea013ed8b01b"
+    },
+    {
+      "id": "self-awareness",
+      "name": "Self-awareness",
+      "count": 1,
+      "file": "data/categories/self-awareness.json",
+      "sha256": "832893952975332ef026d55457cfff6098a99adcac043d45bfa270e5791a8fb5"
+    },
+    {
+      "id": "self-control",
+      "name": "Self-control",
+      "count": 3,
+      "file": "data/categories/self-control.json",
+      "sha256": "70677bd1ef6318cee207da8f3b16379fc42901e4a82128fea12ed873ecebfb96"
+    },
+    {
+      "id": "self-destruction",
+      "name": "Self-destruction",
+      "count": 1,
+      "file": "data/categories/self-destruction.json",
+      "sha256": "94c37f78b3de490578cc436bbf56dab472b7fb0b99c332385cb777f10caddf1d"
+    },
+    {
+      "id": "self-discipline",
+      "name": "Self-Discipline",
+      "count": 34,
+      "file": "data/categories/self-discipline.json",
+      "sha256": "04823aa83336ef89626bd0f67e958cb307cfd3083daa06cc67b8bd1cf39f66eb"
+    },
+    {
+      "id": "self-harm",
+      "name": "Self-harm",
+      "count": 1,
+      "file": "data/categories/self-harm.json",
+      "sha256": "dc4116a4d0bff07179c8dfae19cbb181247bc35711be8f0d5af0add5877948f3"
+    },
+    {
+      "id": "self-mastery",
+      "name": "Self-mastery",
+      "count": 1,
+      "file": "data/categories/self-mastery.json",
+      "sha256": "8391742c9d7b45ddc1e342fc23a49365b7cdccde9272b33194fddb7a6940ab3b"
+    },
+    {
+      "id": "self-reflection",
+      "name": "Self-reflection",
+      "count": 1,
+      "file": "data/categories/self-reflection.json",
+      "sha256": "74e92941c9a3c113f32fb76dfcbe934ae10e8e4bbf4b6f3aaea90947bf0da3b2"
+    },
+    {
+      "id": "self-respect",
+      "name": "Self-respect",
+      "count": 1,
+      "file": "data/categories/self-respect.json",
+      "sha256": "f71f123a4ce8f5a6587def717f61d14dd40190e04088bdc6c5cc6395f5514b12"
+    },
+    {
+      "id": "spirituality",
+      "name": "Spirituality",
+      "count": 1,
+      "file": "data/categories/spirituality.json",
+      "sha256": "321d9189e45a7c315f2b44f5ff6f7499effa03fc98a9e887205bd44f4ed6125f"
+    },
+    {
+      "id": "strategy",
+      "name": "Strategy",
+      "count": 1,
+      "file": "data/categories/strategy.json",
+      "sha256": "6ba1ad56e8a773c1c49034b0e022943f4ef8d37925f65dadad2f128b82277e94"
+    },
+    {
+      "id": "strength",
+      "name": "Strength",
+      "count": 1,
+      "file": "data/categories/strength.json",
+      "sha256": "aa39d982357eae45962ec826029c6c6eaea1b6c92f701148f11fcc6b09c1a55e"
+    },
+    {
+      "id": "success",
+      "name": "Success",
+      "count": 1,
+      "file": "data/categories/success.json",
+      "sha256": "4e529b3cd7714f54b02efd9dc82ebdbb32c9a00f9d97ea2076422a0eb781bd96"
+    },
+    {
+      "id": "transformation",
+      "name": "Transformation",
+      "count": 1,
+      "file": "data/categories/transformation.json",
+      "sha256": "041eafb88a19a7e96c004a51021bd69f741a3aebc181bf13a10ff0ae81c2ff35"
+    },
+    {
+      "id": "trust",
+      "name": "Trust",
+      "count": 1,
+      "file": "data/categories/trust.json",
+      "sha256": "eebc86a98ff2f897675034ed75c032455a94fae90d00793b0f24bdba732b2ca4"
+    },
+    {
+      "id": "understanding",
+      "name": "Understanding",
+      "count": 1,
+      "file": "data/categories/understanding.json",
+      "sha256": "cacc97771844d2a0a65f61546e5e19b5c370d606d91233330681976aa3359a42"
+    },
+    {
+      "id": "warning",
+      "name": "Warning",
+      "count": 1,
+      "file": "data/categories/warning.json",
+      "sha256": "653fa55d9f7df23c3b2e725d630bf59de92b44f3243ac37e3a77c38a85630d38"
+    },
+    {
+      "id": "wisdom",
+      "name": "Wisdom",
+      "count": 34,
+      "file": "data/categories/wisdom.json",
+      "sha256": "8d3759a0c44bb2a045d68be491be00bb776fd4dd60d3cd79032e7cededa064da"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "id": 7,
+    "text": "Silence is the most powerful scream.",
+    "author": "",
+    "category": "Power",
+    "source": "manual",
+    "is_favorite": 0,
+    "is_used": 0,
+    "usage_count": 0,
+    "background_style": "sunrise",
+    "text_align": "center",
+    "font_size": 30.0,
+    "show_author": 1,
+    "created_at": "2025-04-18T01:35:47.390766",
+    "updated_at": "2025-04-18T01:35:47.390766",
+    "uid": "quote-000007"
+  },
+  {
+    "id": 13,
+    "text": "Silence is the ultimate weapon of power.",
+    "author": "",
+    "category": "Power",
+    "source": "manual",
+    "is_favorite": 0,
+    "is_used": 0,
+    "usage_count": 0,
+    "background_style": "sunrise",
+    "text_align": "center",
+    "font_size": 30.0,
+    "show_author": 1,
+    "created_at": "2025-04-18T01:35:47.419928",
+    "updated_at": "2025-04-18T01:35:47.419928",
+    "uid": "quote-000013"
+  },
+  {
+    "id": 33,
+    "text": "He who angers you conquers you.",
+    "author": "",
+    "category": "Power",
+    "source": "manual",
+    "is_favorite": 0,
+    "is_used": 0,
+    "usage_count": 0,
+    "background_style": "sunrise",
+    "text_align": "center",
+    "font_size": 30.0,
+    "show_author": 1,
+    "created_at": "2025-04-18T01:35:47.518921",
+    "updated_at": "2025-04-18T01:35:47.518921",
+    "uid": "quote-000033"
+  }
+]

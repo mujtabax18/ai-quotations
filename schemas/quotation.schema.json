@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Quotation",
+  "type": "object",
+  "required": [
+    "uid",
+    "id",
+    "text",
+    "author",
+    "category",
+    "source",
+    "is_favorite",
+    "is_used",
+    "usage_count",
+    "background_style",
+    "text_align",
+    "font_size",
+    "show_author",
+    "created_at",
+    "updated_at"
+  ],
+  "properties": {
+    "uid": {
+      "type": "string",
+      "minLength": 1
+    },
+    "id": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "author": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source": {
+      "type": "string",
+      "enum": [
+        "ai",
+        "manual",
+        "public-domain",
+        "licensed"
+      ]
+    },
+    "is_favorite": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "is_used": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "usage_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "background_style": {
+      "type": "string"
+    },
+    "text_align": {
+      "type": "string",
+      "enum": [
+        "left",
+        "center",
+        "right",
+        "justify"
+      ]
+    },
+    "font_size": {
+      "type": "number",
+      "minimum": 1
+    },
+    "show_author": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "content_version": "1.0.0",
+  "updated_at": "2026-08-29T00:00:00Z",
+  "catalog": "catalog.json",
+  "all_quotations": "data/all.json",
+  "all_quotations_sha256": "981c6a0f64f87de749dc6b49a827c8bfbbb6562c7fd04e01dbd3de96ec7c0c57"
+}
