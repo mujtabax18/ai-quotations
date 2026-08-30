@@ -29,7 +29,7 @@ and download quotation packs on demand.
 Set one base URL:
 
 ```text
-https://raw.githubusercontent.com/OWNER/REPOSITORY/main/
+https://raw.githubusercontent.com/mujtabax18/ai-quotations/main/
 ```
 
 Then:
@@ -45,8 +45,8 @@ Then:
 Example:
 
 ```text
-https://raw.githubusercontent.com/OWNER/REPOSITORY/main/catalog.json
-https://raw.githubusercontent.com/OWNER/REPOSITORY/main/data/categories/wisdom.json
+https://raw.githubusercontent.com/mujtabax18/ai-quotations/main/catalog.json
+https://raw.githubusercontent.com/mujtabax18/ai-quotations/main/data/categories/wisdom.json
 ```
 
 ## Important database rule
@@ -102,3 +102,53 @@ application export.
 ## Licensing
 
 Only publish text you have the right to redistribute. See `DATA_LICENSE.md`.
+
+
+## AI Quotations Manager UI
+
+A local Python/Streamlit manager is included for contributors who want to add
+AI-generated quotation packs without manually editing repository JSON.
+
+### Setup with a virtual environment
+
+Linux/macOS:
+
+```bash
+./setup-ui.sh
+source .venv/bin/activate
+python run_manager.py
+```
+
+Windows:
+
+```bat
+setup-ui.bat
+.venv\Scripts\activate
+python run_manager.py
+```
+
+Or create the environment manually:
+
+```bash
+python -m venv .venv
+# activate the venv
+python -m pip install -r requirements-ui.txt
+python run_manager.py
+```
+
+The manager provides:
+
+- category selection and new-category creation;
+- strict AI prompt generation;
+- JSON paste/preview;
+- global and batch duplicate detection;
+- repository-format IDs/timestamps;
+- automatic category file saving;
+- content-version bumping;
+- catalog rebuild + validation;
+- Git status/pull;
+- commit and push through the computer's existing Git authentication.
+
+The manager does not store GitHub passwords or access tokens.
+
+See [`docs/quotation-manager-ui.md`](docs/quotation-manager-ui.md) for the full workflow.

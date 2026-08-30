@@ -3,3 +3,6 @@ __pycache__/
 .DS_Store
 .idea/
 .vscode/
+
+# Local Python quotation manager environment
+.venv/
